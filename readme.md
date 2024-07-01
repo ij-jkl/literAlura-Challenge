@@ -1,73 +1,62 @@
-# :trophy: **Desafío LiterAlura**
+**OBJETIVO DEL CHALLENGE**
 
 Desarrollar un Catálogo de Libros que ofrezca interacción textual (vía consola) con los usuarios,
 proporcionando 7 opciones de interacción.
 Los libros se buscarán a través de una API específica y serán almacenados en una base de datos para ser
 utilizada en las opciones de interacción del usuario.
+-------------------------------------------------------------------------------------------------------
+Tener en cuenta que para poder realizar la ejecucion del programa hay que cambiar las variables en 
+application.yml y cambiar las variables de entorno. **
+Tambien tener en cuenta que todos los datos obtenidos de la API publica van a ser guardados en una BDD
+postgresSQL local.
+-------------------------------------------------------------------------------------------------------
+Cuando iniciemos la aplicacion en java nos encontrarmos con el siguiente menu por la consola :
 
-![Menu](https://github.com/santiagopocon/LiterAlura/assets/156986536/af54e567-7c11-41ff-8c7a-05278110d6c8)
+![1](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/6da388ee-52e1-453a-93a9-340a730f4e47)
 
-## 👑 **Insignia del proyecto**
-![badge literalura.png](imagenes%2Fbadge%20literalura.png)
 
-## :computer: **Funcionalidades**
-1. Busca libro en la API
-2. Mostrar libros registrados
-3. Mostrar autores registrados
-4. Buscar y mostrar autores vivos en un año determinado
-5. Buscar y mostrar libros por idioma
-6. Mostrar el top 5 de libros más descargados
-7. Mostrar estadísticas generales de la base de datos
+Una vez seleccionada la Opcion numero 1 (Buscar el libro por el Titulo del mismo) , veremos el siguiente menu : 
 
-### Buscar libro en la API
-![Buscar libro en API](https://github.com/santiagopocon/LiterAlura/assets/156986536/bdba5315-9730-45ef-a747-cc1311a09e57)
 
-#### Buscar libro duplicado
-![1 Buscar duplicado](https://github.com/santiagopocon/LiterAlura/assets/156986536/a31e6dbf-5d75-462c-83e1-4bab77becaba)
+![op-1](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/63ec73a1-24b5-4e02-b928-d24c4c074424)
 
-#### Buscar libro que no existe
-![1 Buscar no existe](https://github.com/santiagopocon/LiterAlura/assets/156986536/ea2caeef-92a0-44a1-9f70-5063296a509c)
 
-### Mostrar libros registrados
-![2 Listar libros](https://github.com/santiagopocon/LiterAlura/assets/156986536/7060ae8e-6a88-4409-9330-8a05cbad144c)
+Una vez seleccionada la Opcion numero 2 (Lista de Libros registrados en la BDD) , veremos lo siguiente : 
 
-### Mostrar autores registrados
-![3 Listar autores](https://github.com/santiagopocon/LiterAlura/assets/156986536/26529efc-10f2-4239-b1d1-7950d87647db)
 
-### Buscar y mostrar autores vivos en un año determinado
-![4 Listar autores vivos](https://github.com/santiagopocon/LiterAlura/assets/156986536/017fd8ab-5843-4029-b4bc-4f52980f1728)
+![op2](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/856d7f6d-ee27-403d-96ef-2b9f27ac141a)
 
-#### Buscar y mostrar autores vivos en un año determinado sin registros
-![4 Listar autores vivos vacio](https://github.com/santiagopocon/LiterAlura/assets/156986536/7c3d05cd-b234-4ece-9139-c314cd759ef3)
 
-### Buscar y mostrar libros por idioma
-![5 Libros por idioma](https://github.com/santiagopocon/LiterAlura/assets/156986536/2c439bea-ec81-453b-8386-ae34ef1f2f3e)
+Una vez seleccionada la Opcion numero 3 (Lista de Autores registrados en la BDD) , veremos lo siguiente : 
 
-#### Buscar y mostrar libros por idioma que no existe
-![5 Libros por idioma no existe](https://github.com/santiagopocon/LiterAlura/assets/156986536/cab86b46-da55-49ec-85fa-8bb6764f2382)
 
-### Mostrar el top 5 de libros más descargados
-![6 top 5](https://github.com/santiagopocon/LiterAlura/assets/156986536/f0dec57b-1acd-462c-a1fc-dab71aff635e)
+![op3](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/1218dcce-f8cb-4bbe-ae6c-bedc7e6227a6)
 
-### Mostrar estadísticas generales de la base de datos
-![7 Estadisticas](https://github.com/santiagopocon/LiterAlura/assets/156986536/eaffbd3e-6b84-49ca-b664-e8183d090be4)
 
-## :wrench: **Tenología utilizada**
-```
-Java version "21.0.2" 2024-01-16 LTS
-Java Spring 3.3.1
-Project Maven
-Postgresql 42.7.3
-https://gutendex.com/
-```
-### **Dependencias**
+Una vez seleccionada la Opcion numero 4 (Lista de autores vivos en determinado año) , veremos lo siguiente : 
 
-✔️Spring Data JPA  
-✔️PostgreSQL Driver  
-✔️Jackson-databind
 
-## 📝 **Autor**
-Santiago Pocón  
-Formación Java Spring Boot  
-Alura Latam ONE G6  
-2014100santiagopocon@gmail.com
+![op4](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/d96240a1-7e4b-41c7-bfa1-9b99d8972bec)
+
+
+Una vez seleccionada la Opcion numero 5 (Lista de Libros por Idioma) , veremos lo siguiente : 
+
+
+![op5](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/66ef8b78-66f9-46cd-9449-07954ba3d9b9)
+
+
+Una vez seleccionada la Opcion numero 6 (Top 5 Libros registrados que mas Descargas tienen) , veremos lo siguiente : 
+
+
+![op6](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/d6614b1c-9966-49cf-a58e-94c30f3cceb7)
+
+
+
+Una vez seleccionada la Opcion numero 7 (Estadisticas Totales de todos los datos registrados en la BDD) , veremos lo siguiente : 
+
+
+![op7](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/2302ebe9-0ece-4331-93e1-d4948bc2d86e)
+
+
+
+Challenge - Jordan Isaac - 30/6/24
