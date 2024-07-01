@@ -48,8 +48,7 @@ Una vez seleccionada la Opcion numero 5 **(Lista de Libros por Idioma)** , verem
 Una vez seleccionada la Opcion numero 6 **(Top 5 Libros registrados que mas Descargas tienen)** , veremos lo siguiente : 
 
 
-![op6](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/d6614b1c-9966-49cf-a58e-94c30f3cceb7)
-
+![esta](https://github.com/ij-jkl/literAlura-Challenge/assets/49004469/678def1d-d134-4077-b4b3-925f48342dc4)
 
 
 Una vez seleccionada la Opcion numero 7 **(Estadisticas Totales de todos los datos registrados en la BDD)** , veremos lo siguiente : 
